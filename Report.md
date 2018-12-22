@@ -37,17 +37,17 @@ Trainable params: 316,005
 Non-trainable params: 0
 
 ## Training chart: 
-![](/Training.png)
+![](/Images/Reacher-Udacity.png)
 
 ## Parameters used (please see config.py): 
 ### Agent / network specific
 
- gae_tau = 0.95
- gradient_clip = 0.25
+ gae_tau = 0.95  
+ gradient_clip = 4.7         - network clipping
  rollout_length = 1000       - trajectory length when recording actions / states
  optimization_epochs = 10    - training length
  mini_batch_size = 200       - batch size in training
- ppo_ratio_clip = 0.2        - gradient clipping value as per paper left 0.2
+ ppo_ratio_clip = 0.1        - gradient clipping value as per paper left 0.2
  lr = 0.001                  - initial learning rate decayed over time
 
 ## Future improvements: 
