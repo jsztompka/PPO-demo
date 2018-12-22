@@ -37,7 +37,7 @@ Trainable params: 316,005
 Non-trainable params: 0
 
 ## Training chart: 
-![](/Images/Reacher-Udacity.png)
+![](/images/Reacher-Udacity.png)
 
 ## Parameters used (please see config.py): 
 ### Agent / network specific
